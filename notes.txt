@@ -1,0 +1,36 @@
+
+
+memory consumption
+------------------
+
+Method 1:
+
+1 row =
+7 * 48 = 336
+2 * 120 = 240
+ = 576 B
+
+2075259 * 576 = 1195349184 B
+ = 1167333 KB
+ = ~ 1140 MB
+
+
+Method 2:
+
+1 row total = 2.42 KB
+11 rows total = 4.02 KB
+
+10 rows only = 1.60 KB
+1 row only = .160 KB
+
+overhead = 2.42 - 1.60 = .82 KB
+
+2075259 * .160 KB = 332041.4 KB
+  = 324.2592 MB
+
+
+
+ACTUAL:
+83.6 MB
+
+
